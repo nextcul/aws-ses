@@ -16,7 +16,7 @@ public class ApplicationTests {
 
 		AwsSesSenderDto dto = AwsSesSenderDto.builder()
 				.from("nextculture@nextculture.kr")
-				.to(Lists.newArrayList("nextculture@nextculture.kr"))
+				.to(Lists.newArrayList("dev.nextculture@gmail.com"))
 				.subject("AWS SES 테스트 메일입니다.")
 				.content("<h1>안녕하세요</h1><h3>우아아아아아</h3>")
 				.build();
